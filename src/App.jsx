@@ -2,9 +2,7 @@ import { Post } from "./Post"
 
 
 
-function App() {
- 
-
+export const App = () => {
   return (
     <>
     <h1>Hello World</h1>
@@ -12,5 +10,3 @@ function App() {
     </>
   )
 }
-
-export default App
