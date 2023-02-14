@@ -1,6 +1,6 @@
-import { Post } from "./Post"
+import { Post } from "./Post";
 
-
+import './styles.css';
 
 export const App = () => {
   return (
