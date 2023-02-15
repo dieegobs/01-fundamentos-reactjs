@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const Post = () => {
+
+export const Post = ({author, content}) => {
   return (
-    <div>Post</div>
+    <div>{author} - {content}</div>
   )
 }
