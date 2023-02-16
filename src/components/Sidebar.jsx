@@ -10,7 +10,7 @@ export const Sidebar = () => {
 
             <div className={styles.profile}>
 
-                <img src="https://avatars.githubusercontent.com/u/9438683?v=4" alt="" />
+                <img className={styles.avatar} src="https://avatars.githubusercontent.com/u/9438683?v=4" alt="" />
 
                 <strong>Diego Bittencourt</strong>
                 <span>Web Developer</span>
